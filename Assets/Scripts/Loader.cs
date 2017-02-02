@@ -13,6 +13,6 @@ public class Loader : MonoBehaviour {
 	}
 
 	void Start () {
-		
+		Camera.main.aspect = 480f / 800f;
 	}
 }
