@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour {
 
 		boardManager = GetComponent<BoardManager> ();
 
-		boardManager.SetupScene (2, 5);
+		boardManager.SetupScene (0, 0);
 	}
 
 	// Use this for initialization
